@@ -1310,7 +1310,9 @@ hr {
     margin-bottom: 10px;
 }
 
-.Offers__item-details button {
+.Offers__item-details a {
+    display: block;
+    text-align: center;
     width: 100%;
     padding: 10px 0;
     font-size: 20px;
@@ -1324,7 +1326,7 @@ hr {
     border-radius: 10px;
 }
 
-.Offers__item-details button:hover {
+.Offers__item-details a:hover {
     background-color: rgb(36, 36, 90);
 }
 
