@@ -1157,6 +1157,11 @@ hr {
 
 .Team__item-link i {
     line-height: 40px;
+    transition: 0.3s;
+}
+
+.Team__item-link i:hover {
+    transform: scale(1.1);
 }
 
 .Team__item-link--overlay {
@@ -1174,13 +1179,176 @@ hr {
     opacity: 1;
 }
 
+
+/********************************** Offers section styles ***********************/
+
+.Offers {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #F6F6F6;;
+}
+
+.Offers__header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Offers__header h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: relative;
+}
+
+.Offers__header h2::after {
+    content: '';
+    height: 3px;
+    width: 70px;
+    background-color: blue;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Offers__content {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.Offers__item {
+    width: 30%;
+    background-color: #CA0B1D;
+    float: left;
+    border-radius: 40px;
+}
+
+.Offers__middle {
+    margin: 0 5%;
+}
+
+.Offers__item-hero {
+    width: 100%;
+    min-height: 200px;
+    
+}
+
+.Offers__item-offer {
+    overflow: hidden;
+    position: relative;
+    min-height: inherit;
+}
+
+.Offers__item-offer--left {
+    float: left;
+    padding: 30px;
+    /* margin-top: 35%; */
+    margin-right: 20px;
+    /* transform: translateY(-50%); */
+}
+
+.Offers__item-offer--left h2 {
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+}
+
+.Offers__item-offer--left p {
+    color: white;;
+}
+
+.Offers__item-offer--right {
+    float: left;
+    position: relative;
+    top: 50%;
+    /* transform: translateY(-50%); */
+
+}
+
+.Offers__item-offer--right img {
+    width: 150px;
+    margin-top: 30px;
+    /* transform: rotate(45deg); */
+}
+
+.Offers__item-details {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+}
+
+.Offer__item-details--container {
+
+}
+
+.Offers__item-details--content {
+    margin-bottom: 20px;
+}
+
+.Offers__item-details--content h2 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.Offers__item-details--items {
+    margin-left: 20px;
+}
+
+.Offers__item-how {
+    margin-bottom: 20px;
+    
+}
+
+.Offers__item-how h2 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.Offers__item-details button {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.Offers__item-details button:hover {
+    background-color: rgb(36, 36, 90);
+}
+
+.Offers__item-customise {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-decoration: underline;
+    color: white;
+    transition: 0.3s;
+}   
+
+.Offers__item-customise:hover {
+    text-decoration: none;
+}
+
+
 /********************************** Footer section styles ***********************/
 
 .Footer {
     width: 100%;
     padding: 50px 0;
     text-align: center;
-    background-color: rgb(246, 246, 246);
+    background-color: white;
 }
 
 .Footer__hero {
